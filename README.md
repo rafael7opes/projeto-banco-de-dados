@@ -18,7 +18,7 @@ A primeira etapa consistiu na criação de um Modelo Entidade-Relacionamento (ME
 * Controle de Hóspedes, Reservas e Pagamentos.
 * Definição rigorosa de cardinalidades e relacionamentos (ex: Um hotel possui vários quartos; Uma reserva gera um pagamento).
 
-*(Adicione aqui a imagem do seu diagrama MER)*
+![Diagrama MER da Rede de Hotéis](DiagramaMAIOR.drawio.jpg)
 
 ---
 

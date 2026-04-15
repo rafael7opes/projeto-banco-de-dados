@@ -1,4 +1,4 @@
-# Projeto de Banco de Dados: Modelagem e Implementação SQL 🗄️
+# Projeto de Banco de Dados: Modelagem e Implementação SQL
 
 Este repositório contém a resolução de um projeto prático de Banco de Dados desenvolvido como parte dos meus estudos no curso de **Análise e Desenvolvimento de Sistemas** da **UNINTER**. O projeto é dividido em duas etapas principais: modelagem conceitual de um sistema e implementação de um banco de dados relacional com consultas SQL.
 

@@ -12,7 +12,7 @@ Este repositório contém a resolução de um projeto prático de Banco de Dados
 ---
 
 ## Etapa 1: Modelagem de Dados (Rede de Hotéis)
-A primeira etapa consistiu na criação do **Modelo Entidade-Relacionamento (MER)**, seguindo a notação conceitual clássica, para estruturar as operações de uma rede de hotéis. O foco foi garantir a integridade dos dados e o mapeamento correto das regras de negócio.
+A primeira etapa consistiu na criação do **Modelo Entidade-Relacionamento (MER)** do zero, utilizando a plataforma **draw.io**. O diagrama foi construído seguindo a notação conceitual clássica para estruturar as operações de uma rede de hotéis, com foco em garantir a integridade dos dados e o mapeamento preciso das regras de negócio.
 
 **Destaques da Modelagem:**
 * **Mapeamento de Entidades e Atributos:** Estruturação das entidades principais (`Hotel`, `Quarto`, `Funcionario`, `Hospede`, `Reserva`, `Pagamento`) com suas respectivas Chaves Primárias (PK) e detalhamento de atributos compostos (ex: decomposição do atributo `Endereço`).

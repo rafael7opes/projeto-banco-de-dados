@@ -32,7 +32,26 @@ A segunda etapa focou na implementação física de um modelo relacional para um
    * Cálculo do faturamento total da locadora utilizando a função de agregação `SUM()`.
    * Ranqueamento dos modelos de veículos mais alugados utilizando `JOIN`, `COUNT()` e `GROUP BY`.
    * Levantamento de clientes com pagamentos pendentes e seus respectivos valores devidos.
+  
+   ** Exemplo de Consulta Implementada (Ranking de Veículos mais Locados):**
+```sql
+SELECT
+    Veiculo.modelo,
+    Veiculo.marca,
+    COUNT(LocacaoVeiculo.idVeiculo) AS quantidadeAlugueis
+FROM Veiculo
+JOIN LocacaoVeiculo ON Veiculo.idVeiculo = LocacaoVeiculo.idVeiculo
+GROUP BY Veiculo.idVeiculo
+ORDER BY quantidadeAlugueis DESC;
+```
 
+Resultados Obtidos (Saídas do Banco de Dados):
+<img width="212" height="87" alt="bd4" src="https://github.com/user-attachments/assets/79fa4fa1-aa64-4428-9f36-41c2cc7018ec" />
+<img width="272" height="197" alt="bd3" src="https://github.com/user-attachments/assets/39feb41d-5ad9-442f-9307-0d307e258004" />
+<img width="133" height="51" alt="bd2" src="https://github.com/user-attachments/assets/f02df078-de09-4296-8e99-eb184f623662" />
+<img width="364" height="205" alt="bd1" src="https://github.com/user-attachments/assets/7fed9b67-37ad-4dd9-9795-e05c9633b7b0" />
+
+Nota: O script completo contendo a criação (DDL), inserção (DML) e todas as consultas (DQL) está disponível no arquivo LocadoraVeiculos.sql presente neste repositório.
 ---
 
 ## Autor

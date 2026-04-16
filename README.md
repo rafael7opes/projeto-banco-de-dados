@@ -3,8 +3,9 @@
 Este repositório contém a resolução de um projeto prático de Banco de Dados desenvolvido como parte dos meus estudos no curso de **Análise e Desenvolvimento de Sistemas** da **UNINTER**. O projeto é dividido em duas etapas principais: modelagem conceitual de um sistema e implementação de um banco de dados relacional com consultas SQL.
 
 ## Tecnologias e Ferramentas
+
 * **Banco de Dados:** MySQL
-* **Ferramenta:** MySQL Workbench
+* **Ferramentas:** MySQL Workbench (Implementação SQL) e draw.io (Modelagem Visual MER)
 * **Linguagem:** SQL (DDL e DML)
 * **Conceitos:** Modelagem Entidade-Relacionamento (MER), Chaves Primárias/Estrangeiras, Consultas com `JOIN`, Agregações (`GROUP BY`, `SUM`, `COUNT`).
 

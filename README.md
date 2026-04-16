@@ -33,7 +33,7 @@ A segunda etapa focou na implementação física de um modelo relacional para um
    * Ranqueamento dos modelos de veículos mais alugados utilizando `JOIN`, `COUNT()` e `GROUP BY`.
    * Levantamento de clientes com pagamentos pendentes e seus respectivos valores devidos.
   
-   ** Exemplo de Consulta Implementada (Ranking de Veículos mais Locados):**
+   **Exemplo de Consulta Implementada (Ranking de Veículos mais Locados):**
 ```sql
 SELECT
     Veiculo.modelo,
@@ -47,19 +47,24 @@ ORDER BY quantidadeAlugueis DESC;
 
 **Resultados Obtidos (Saídas do Banco de Dados):**
 
-*1. Histórico de Manutenções:*
+**1. Histórico de Manutenções:**
+
 <img src="https://github.com/user-attachments/assets/7fed9b67-37ad-4dd9-9795-e05c9633b7b0" />
 
-*2. Total Arrecadado:*
+**2. Total Arrecadado:**
+
 <img src="https://github.com/user-attachments/assets/f02df078-de09-4296-8e99-eb184f623662" />
 
-*3. Veículos Mais Locados:*
+**3. Veículos Mais Locados:**
+
 <img src="https://github.com/user-attachments/assets/39feb41d-5ad9-442f-9307-0d307e258004" />
 
-*4. Clientes com Pagamentos Pendentes:*
+**4. Clientes com Pagamentos Pendentes:**
+
 <img src="https://github.com/user-attachments/assets/79fa4fa1-aa64-4428-9f36-41c2cc7018ec" />
 
-Nota: O script completo contendo a criação (DDL), inserção (DML) e todas as consultas (DQL) está disponível no arquivo LocadoraVeiculos.sql presente neste repositório.
+**Nota:** O script completo contendo a criação (DDL), inserção (DML) e todas as consultas (DQL) está disponível no arquivo `LocadoraVeiculos.sql` presente neste repositório.
+
 ---
 
 ## Autor
